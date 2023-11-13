@@ -1,0 +1,52 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "Seymi_admin"
+        },
+        {
+            "id": 2,
+            "username": "Seymi_user"
+        },
+        {
+            "id": 3,
+            "username": "Seymi_guest"
+        },
+        {
+            "id": 4,
+            "username": "Seymi"
+        }
+    ],
+    "roles": [
+        {
+            "id": 1,
+            "role_name": "admin"
+        },
+        {
+            "id": 2,
+            "role_name": "user"
+        },
+        {
+            "id": 3,
+            "role_name": "guest"
+        }
+    ],
+    "user_roles": [
+        {
+            "userId": 1,
+            "roleId": 1
+        },
+        {
+            "userId": 2,
+            "roleId": 2
+        },
+        {
+            "userId": 3,
+            "roleId": 3
+        },
+        {
+            "userId": 4,
+            "roleId": null
+        }
+    ]
+}
